@@ -5,7 +5,7 @@ export const getServerSideProps = getTesfyProps(async () => {
   return { props: {} }
 })
 
-const IndexPage = () => {
+const FooPage = () => {
   return (
     <>
       <h1>Experiments</h1>
@@ -43,4 +43,4 @@ const IndexPage = () => {
   )
 }
 
-export default IndexPage
+export default FooPage
